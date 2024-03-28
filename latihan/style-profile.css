@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+
+body {
+    padding: 100px;
+    background-image: linear-gradient(-20deg, #ffffff 0%, #1379cd 100%);
+    text-align: center;
+    background-size: 100%;
+    
+}
+ul {
+    margin-left: -45px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a:hover {
+    opacity: 90%;
+}
+.main {
+    width: 800px;
+    height: 520px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.img {
+    background-image: url(assets/kristofel.jpg);
+    /* background-image: url(https://storage.googleapis.com/profile-resource/kristofel.jpg); */
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+h1, .text {
+    font-family: "Audiowide", sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    color: #00547a;
+}
+.text {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: #324e63;
+}
+
+p {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 450px;
+    height: auto;
+    color: 324e63;
+    font-family: "Trirong", sans-serif;
+}
